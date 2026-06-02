@@ -1,7 +1,7 @@
-firmware-rehosting
+# Firmware-rehosting
 This is a part of firmware analysis done at the University of Birmingham using raspberry-pi 2040. The task was divided into three parts, look for README.md, where in each task it was required to find flags in a particular format. The idea behind this activity was to understand the concept of SPI, UART, and firmware rehosting.
 
-Summary of assignment After showing your skills in security via automation, fuzzing, and vulnerability reporting, EvilCorp has a new task for you: Help them to recover key information about their legacy hardware security token, hosted on the raspberry Pi Pico!
+## Summary of assignment After showing your skills in security via automation, fuzzing, and vulnerability reporting, EvilCorp has a new task for you: Help them to recover key information about their legacy hardware security token, hosted on the raspberry Pi Pico!
 
 Unfortunately, the engineer who originally created the token left the company and documentation is missing. You will need to probe the different communication interface and recover the Pin code to unlock the device. For this assignment, you will receive hardware (1 set per group). Please make sure to return this after you finished the assignment.
 
