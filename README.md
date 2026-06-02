@@ -1,7 +1,8 @@
 # Firmware-rehosting
 This is a part of firmware analysis done at the University of Birmingham using raspberry-pi 2040. The task was divided into three parts, look for README.md, where in each task it was required to find flags in a particular format. The idea behind this activity was to understand the concept of SPI, UART, and firmware rehosting.
 
-## Summary of assignment After showing your skills in security via automation, fuzzing, and vulnerability reporting, EvilCorp has a new task for you: Help them to recover key information about their legacy hardware security token, hosted on the raspberry Pi Pico!
+## Summary of assignment 
+After showing your skills in security via automation, fuzzing, and vulnerability reporting, EvilCorp has a new task for you: Help them to recover key information about their legacy hardware security token, hosted on the raspberry Pi Pico!
 
 Unfortunately, the engineer who originally created the token left the company and documentation is missing. You will need to probe the different communication interface and recover the Pin code to unlock the device. For this assignment, you will receive hardware (1 set per group). Please make sure to return this after you finished the assignment.
 
@@ -9,7 +10,7 @@ Assignment You are in the role of a external cybersecurity consultant and your a
 
 **Part 1: Protocol Reverse Engineering ** Notes: Throughout this assignment, you are asked to retrieve different "flags". In this assignment, these are human-readable strings, following the format sshs{$random_string}. Please include the retrieved flags in your submission.
 
-Goals:
+##Goals:
 
 Preparation: Obtain the set of hardware from the lecturers or TAs (1 set per group) Flash the target firmware on the device Download the saleae Logic 2 software for your operation system: https://www.saleae.com/pages/downloadsLinks to an external site. Make sure you can communicate with your Raspberry Pi Pico via USB, using for instance minicom on Mac/Linux or Putty on Windows. UART identification: Use the menu of the pico firmware to send a message via UART. The message is sent once every time the menu entry is selected. Attach the logic analyzer to the right Pins and capture the traffic using the Logic 2 software Decode the UART message using the corresponding protocol decoder with the right parameters. SPI identification: Use the menu of the pico firmware to send a message via SPI. The message is sent once every time the menu entry is selected. Probe different pins with the logic analyzer to find the pins on which the message is transmitted. Decode the SPI message using the corresponding protocol decoder with the right parameters. Hints:
 
