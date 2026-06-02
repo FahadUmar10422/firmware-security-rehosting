@@ -6,7 +6,7 @@ After showing your skills in security via automation, fuzzing, and vulnerability
 
 Unfortunately, the engineer who originally created the token left the company and documentation is missing. You will need to probe the different communication interface and recover the Pin code to unlock the device. For this assignment, you will receive hardware (1 set per group). Please make sure to return this after you finished the assignment.
 
-Assignment You are in the role of a external cybersecurity consultant and your assignment is divided in two parts: protocol reverse engineering and rehosting. Please refer to the assignment introduction slides [link] or recording for additional information on the hardware. For part 2, you are also given a set of files to carry out your task: assignment2.zip Download assignment2.zip.
+**Assignment** You are in the role of an external cybersecurity consultant and your assignment is divided in two parts: protocol reverse engineering and rehosting. Please refer to the assignment introduction slides [link] or recording for additional information on the hardware. For part 2, you are also given a set of files to carry out your task: assignment2.zip Download assignment2.zip.
 
 **Part 1: Protocol Reverse Engineering** Notes: Throughout this assignment, you are asked to retrieve different "flags". In this assignment, these are human-readable strings, following the format sshs{$random_string}. Please include the retrieved flags in your submission.
 
